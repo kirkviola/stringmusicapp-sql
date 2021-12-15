@@ -2,7 +2,7 @@ INSERT ActivityTypes (Name)
 VALUES ('Violin First Position Fingerings - Easy'),
 		('Viola First Position Fingerings - Easy'),
 		('Cello First Position Fingerings - Easy'),
-		('Bass First Position Fingerings - Easy'),
+		('Bass First Position Fingerings - Easy')
 		--('Violin First Position Fingerings - Challenging'),
 		--('Viola First Position Fingerings - Challenging'),
 		--('Cello First Position Fingerings - Challenging'),
@@ -176,6 +176,4 @@ VALUES ('1', (SELECT Id from ActivityTypes where name = 'Violin First Position F
 		('2', (SELECT Id from ActivityTypes where name = 'Bass First Position Fingerings - Easy')),
 		('4', (SELECT Id from ActivityTypes where name = 'Bass First Position Fingerings - Easy')),
 		('0', (SELECT Id from ActivityTypes where name = 'Bass First Position Fingerings - Easy'));
-
-
-		
+GO	
